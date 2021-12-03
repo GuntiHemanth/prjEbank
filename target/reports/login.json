@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verifying Admin login functionality with valid data",
+        "description": "",
+        "id": "admin-login;verifying-admin-login-functionality-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6800020279,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User on Ranford Home Page",
+            "match": {
+              "location": "Alogin.user_on_Ranford_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1681277214,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters valid UserName \"Admin\" and Password  \"Te$ting@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 28
+                },
+                {
+                  "val": "Te$ting@",
+                  "offset": 50
+                }
+              ],
+              "location": "Alogin.user_enters_valid_UserName_and_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61205514,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validating Admin Login Functionality",
+            "match": {
+              "location": "Alogin.validating_Admin_Login_functionality()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2209323892,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Logout from Application",
+            "match": {
+              "location": "Alogin.user_Logout_from_Application()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Admin Login",
+    "description": "",
+    "id": "admin-login",
+    "keyword": "Feature",
+    "uri": "E:/santosh/Live Project/Live Project Program/E_Banking/src/Feature/Login.feature"
+  }
+]

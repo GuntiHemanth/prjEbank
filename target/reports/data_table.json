@@ -1,0 +1,121 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "role-creation;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49522489355,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User already on Ranford Home Page",
+            "match": {
+              "location": "RoleCreation_DataTable.user_already_on_Ranford_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 426445088,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d96.0.4664.45)\nBuild info: version: \u00273.5.3\u0027, revision: \u0027a88d25fe6b\u0027, time: \u00272017-08-29T12:54:15.039Z\u0027\nSystem info: host: \u0027SONY-PC\u0027, ip: \u0027192.168.29.89\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_311\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}), userDataDir\u003dC:\\Users\\SONY\\AppData\\Local\\Temp\\scoped_dir4496_1910698813}, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003ddismiss and notify, strictFileInteractability\u003dfalse, platform\u003dXP, proxy\u003dProxy(), goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:51978}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, browserVersion\u003d96.0.4664.45, browserName\u003dchrome, javascriptEnabled\u003dtrue, platformName\u003dXP, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 33520c81ad4d033b3ee8a80060e3ec1d\n*** Element info: {Using\u003did, value\u003dtxtuId}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:462)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)\r\n\tat stepdefination1.RoleCreation_DataTable.user_enters_valid_UserName_and_Password(RoleCreation_DataTable.java:32)\r\n\tat ✽.When User enters valid UserName and Password(E:/santosh/Live Project/Live Project Program/E_Banking/src/Feature/RoleDataTable.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User enters valid UserName and Password",
+            "match": {
+              "location": "RoleCreation_DataTable.user_enters_valid_UserName_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User Admin Login validation",
+            "match": {
+              "location": "RoleCreation_DataTable.user_Admin_Login_validation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User clicks on role button",
+            "match": {
+              "location": "RoleCreation_DataTable.user_clicks_on_role_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Users Click on New Role and Enter all Role details",
+            "match": {
+              "location": "RoleCreation_DataTable.users_Click_on_New_Role_and_Enter_all_Role_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "RoleName",
+                  "RoleType"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "Generalmanager",
+                  "E"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "Manager",
+                  "E"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "Clerk",
+                  "E"
+                ],
+                "line": 17
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Close Application",
+            "match": {
+              "location": "RoleCreation_DataTable.close_Application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Role Creation",
+    "description": "",
+    "id": "role-creation",
+    "keyword": "Feature",
+    "uri": "E:/santosh/Live Project/Live Project Program/E_Banking/src/Feature/RoleDataTable.feature"
+  }
+]

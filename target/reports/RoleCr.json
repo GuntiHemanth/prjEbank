@@ -1,0 +1,378 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verifying Admin login functionality with valid data",
+        "description": "",
+        "id": "admin-login;verifying-admin-login-functionality-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6586300057,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User on Ranford Home Page",
+            "match": {
+              "location": "Alogin.user_on_Ranford_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1545251786,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters valid UserName \"Admin\" and Password  \"Te$ting@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 28
+                },
+                {
+                  "val": "Te$ting@",
+                  "offset": 50
+                }
+              ],
+              "location": "Alogin.user_enters_valid_UserName_and_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59369351,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validating Admin Login Functionality",
+            "match": {
+              "location": "Alogin.validating_Admin_Login_functionality()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 533146793,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Logout from Application",
+            "match": {
+              "location": "Alogin.user_Logout_from_Application()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Admin Login",
+    "description": "",
+    "id": "admin-login",
+    "keyword": "Feature",
+    "uri": "E:/santosh/Live Project/Live Project Program/E_Banking/src/Feature/Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": ": Verifying Role creation with Multiple sets of data",
+        "description": "",
+        "id": "role-creation;:-verifying-role-creation-with-multiple-sets-of-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7665944563,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Already on the Ranford Home Page",
+            "match": {
+              "location": "RoleCreation.user_already_on_the_Ranford_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3921096071,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters Valid Username and Password",
+            "match": {
+              "location": "RoleCreation.user_enters_Valid_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74639040,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Admin login Validation",
+            "match": {
+              "location": "RoleCreation.user_Admin_login_Validation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 303692583,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Role button",
+            "match": {
+              "location": "RoleCreation.user_clicks_on_Role_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6308983771,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on New Role and Enter all \"ClerkKthptJnct\" and \"E\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ClerkKthptJnct",
+                  "offset": 39
+                },
+                {
+                  "val": "E",
+                  "offset": 60
+                }
+              ],
+              "location": "RoleCreation.user_clicks_on_New_Role_and_Enter_all_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73549111,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close Application",
+            "match": {
+              "location": "RoleCreation.close_Application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": ": Verifying Role creation with Multiple sets of data",
+        "description": "",
+        "id": "role-creation;:-verifying-role-creation-with-multiple-sets-of-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7319566146,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Already on the Ranford Home Page",
+            "match": {
+              "location": "RoleCreation.user_already_on_the_Ranford_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4032244266,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters Valid Username and Password",
+            "match": {
+              "location": "RoleCreation.user_enters_Valid_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68849892,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Admin login Validation",
+            "match": {
+              "location": "RoleCreation.user_Admin_login_Validation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 561071160,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Role button",
+            "match": {
+              "location": "RoleCreation.user_clicks_on_Role_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5995787658,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on New Role and Enter all \"POSBI\" and \"E\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "POSBI",
+                  "offset": 39
+                },
+                {
+                  "val": "E",
+                  "offset": 51
+                }
+              ],
+              "location": "RoleCreation.user_clicks_on_New_Role_and_Enter_all_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77239272,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close Application",
+            "match": {
+              "location": "RoleCreation.close_Application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": ": Verifying Role creation with Multiple sets of data",
+        "description": "",
+        "id": "role-creation;:-verifying-role-creation-with-multiple-sets-of-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7508734421,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Already on the Ranford Home Page",
+            "match": {
+              "location": "RoleCreation.user_already_on_the_Ranford_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5394916207,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters Valid Username and Password",
+            "match": {
+              "location": "RoleCreation.user_enters_Valid_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85478812,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Admin login Validation",
+            "match": {
+              "location": "RoleCreation.user_Admin_login_Validation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 240578472,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Role button",
+            "match": {
+              "location": "RoleCreation.user_clicks_on_Role_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6488262628,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on New Role and Enter all \"TELSBI\" and \"E\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TELSBI",
+                  "offset": 39
+                },
+                {
+                  "val": "E",
+                  "offset": 52
+                }
+              ],
+              "location": "RoleCreation.user_clicks_on_New_Role_and_Enter_all_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96437634,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close Application",
+            "match": {
+              "location": "RoleCreation.close_Application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Role creation",
+    "description": "",
+    "id": "role-creation",
+    "keyword": "Feature",
+    "uri": "E:/santosh/Live Project/Live Project Program/E_Banking/src/Feature/RoleCreation.feature"
+  }
+]
